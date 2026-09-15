@@ -7,28 +7,23 @@ Welcome to my portfolio I've made to organize my 3D animations made in Blender. 
 
 ---
 
-## Featured Project: Character Turnaround & Topology
+## How do charged particles behave under uniform magnetic fields?
 
 <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
 
   <!-- Left Column: Final Animation -->
   <div style="flex: 1; min-width: 320px;">
     <video autoplay loop muted playsinline width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-      <source src="{{ 'assets/videos/helical-drift-cancel.mp4' | relative_url }}" type="video/mp4">
+      <source src="{{ 'assets/videos/cyclo-gyration.mp4' | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
-    <p style="text-align: center; font-size: 0.9em; color: #555; margin-top: 8px;"><b>Final Cycles Render</b><br>Lighting setup and surface textures.</p>
+    <p style="text-align: center; font-size: 0.9em; color: #555; margin-top: 8px;"><b>Cyclotron Motion</b><br>Charged particles gyrate under a uniform magnetic field (no electric field). The direction depends on the charge of the particle.</p>
   </div>
 
   <!-- Right Column: Wireframe Breakdown -->
   <div style="flex: 1; min-width: 320px;">
-    <img src="{{ 'assets/images/speed-mag-grad-neg-drift.gif' | relative_url }}" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="Topology Breakdown">
-    <p style="text-align: center; font-size: 0.9em; color: #555; margin-top: 8px;"><b>Mesh Topology & Breakdown</b><br>Quad-dominant edge-loops optimized for deformation.</p>
+    <img src="{{ 'assets/images/cyclotron-helix-parts.png' | relative_url }}" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="With Nonzero Initial Velocity">
+    <p style="text-align: center; font-size: 0.9em; color: #555; margin-top: 8px;"><b>With Nonzero Initial Velocity</b><br>Particles with nonzero initial velocity along the field line will keep that velocity, and gyrate around field lines.</p>
   </div>
 
 </div>
-
-## Project Descriptions & Technical Notes
-* **Software Used:** Blender, Substance Painter
-* **Render Engine:** Cycles (1024 samples with OptiX Denoising)
-* **Key Focus:** Clean hard-surface subdivision topology and photorealistic PBR texturing.

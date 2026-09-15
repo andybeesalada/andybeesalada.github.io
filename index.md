@@ -1,9 +1,9 @@
 ---
 layout: home
-title: 3D Art & Animation Portfolio
+title: Charged Particle Motion in a Toroid Tokamak
 ---
 
-Welcome to my graduate application portfolio. Below is a curated selection of my 3D assets, animations, and pipeline workflows developed in Blender.
+Welcome to my portfolio I've made to organize my 3D animations made in Blender. I created these for my undergraduate senior thesis project, focusing on charged particle motion under electric and magnetic fields, specifically applied to the geometry of a tokamak nuclear fusion reactor. Some physical realities are hard to visualize 100% true to life, so my goal was to make creative choices that helped me to explain these concepts in under 30 minutes of presentation time, using visuals in a PowerPoint.
 
 ---
 

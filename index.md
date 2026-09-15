@@ -14,7 +14,7 @@ Welcome to my graduate application portfolio. Below is a curated selection of my
   <!-- Left Column: Final Animation -->
   <div style="flex: 1; min-width: 320px;">
     <video autoplay loop muted playsinline width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-      <source src="{{ '/assets/videos/your-video-name.mp4' | relative_url }}" type="video/mp4">
+      <source src="{{ 'assets/videos/helical drift cancelling video.mp4' | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
     <p style="text-align: center; font-size: 0.9em; color: #555; margin-top: 8px;"><b>Final Cycles Render</b><br>Lighting setup and surface textures.</p>

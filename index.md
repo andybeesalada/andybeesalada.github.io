@@ -22,7 +22,7 @@ Welcome to my graduate application portfolio. Below is a curated selection of my
 
   <!-- Right Column: Wireframe Breakdown -->
   <div style="flex: 1; min-width: 320px;">
-    <img src="{{ '/assets/images/your-gif-name.gif' | relative_url }}" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="Topology Breakdown">
+    <img src="{{ 'assets/images/sped up mag grad drift neg gif.gif' | relative_url }}" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="Topology Breakdown">
     <p style="text-align: center; font-size: 0.9em; color: #555; margin-top: 8px;"><b>Mesh Topology & Breakdown</b><br>Quad-dominant edge-loops optimized for deformation.</p>
   </div>
 

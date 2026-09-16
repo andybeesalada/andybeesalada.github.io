@@ -272,4 +272,41 @@ Some physical realities are hard to visualize 100% true to life, so I took some 
 
 </div>
 
+<h2 style="text-align: center; margin-top: 35px; margin-bottom: 10px;">
+  Putting the drifts together
+</h2>
+
+<hr style="margin-top: 10px; margin-bottom: 30px; border: 0; border-top: 1px solid #ffffff;">
+
+<div style="max-width: 720px; margin: 0 auto 40px auto; text-align: center;">
+
+  <!-- Main Video / Image -->
+ <video autoplay loop muted playsinline width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <source src="{{ 'assets/videos/toroidal-drifts-parts.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  
+  <!-- Caption & Description -->
+  <p style="font-size: 0.95em; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
+    <b>Combined drifts in tokamak (particles)</b><br>
+    From the $\vec \nabla B$ drift we know positive particles drift up, negative drift down. From the $\vec E\times\vec B$ drift we know all particles drift radially outwards. Put together, positive drifts up and out, negative drifts down and out. Fusion reactions occur more frequently at higher temperatures, but the particles in our reactor will collide with walls and transfer energy away. Not ideal for a sustained reaction.
+  </p>
+
+</div>
+
+<div style="max-width: 720px; margin: 0 auto 40px auto; text-align: center;">
+
+  <!-- Main Video / Image -->
+ <video autoplay loop muted playsinline width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <source src="{{ 'assets/videos/toroidal-drifts-rings.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  
+  <!-- Caption & Description -->
+  <p style="font-size: 0.95em; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
+    <b>Combined drifts in tokamak (ring orbit representation)</b><br>
+    The charged particles will always have their cyclotron gyration around the magnetic field lines, which we can see from the Lorentz force. However, these orbits don't cause problems like heat transfer to walls, because on average, cyclotron gyration will keep the particles in the same general area. So, it can be useful when doing calculations like these to average motion over full cyclotron gyrations. This leaves us with the more important components of motion, like $\vec\nabla B$ and $\vec E\times\vec B$ drifts. <br>That is why I made two versions of this animation, one with the particles represented as orbs/points, and another with just the orbit represented as a ring. This makes it easier to follow the motion of the guiding center, and see that the drift is vertical and radially outwards.
+  </p>
+
+</div>
 

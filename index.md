@@ -192,8 +192,8 @@ Some physical realities are hard to visualize 100% true to life, so I took some 
   
   <!-- Caption & Description -->
   <p style="font-size: 0.95em; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
-    <b>Poloidal current loops ($\vec I$) create toroidal $\vec B$</b><br>
-    Imagine a solenoid, where tightly-wrapped current-carrying wire creates a straight magnetic field. Particles following these field lines will stream out of the end of the solenoid. But wrap it into a ring so the ends meet, and $\vec B$ becomes a circular path to trap particles.
+    <b>Poloidal current loops ($\vec I$, light yellow lines) create toroidal $\vec B$</b><br> (light blue lines)
+    Imagine a solenoid, where tightly-wrapped current-carrying wire creates a straight magnetic field. Particles following these field lines will stream out of the end of the solenoid. But wrap it into a ring so the ends meet, and $\vec B$ becomes a circular path to trap particles. 
   </p>
 
 </div>

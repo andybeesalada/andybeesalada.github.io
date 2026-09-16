@@ -35,6 +35,17 @@ title: "Charged Particle Motion in a Toroid: Tokamak"
   .site-title:hover, .site-header a:hover {
     color: #e7c6ff !important;
   }
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+  </script>
 </style>
 
 Welcome to the portfolio I've made to organize my 3D animations made in Blender. I created these for my undergraduate senior thesis project, focusing on charged particle motion under electric and magnetic fields, specifically applied to the geometry of a tokamak nuclear fusion reactor. This presentation looked through the lens of single particle motion, though if I had more time I would have liked to explore further into magneto-hydrodynamics.<br>
@@ -117,6 +128,44 @@ Some physical realities are hard to visualize 100% true to life, so I took some 
   <!-- Caption -->
   <p style="font-size: 0.95em; text-align: center; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
     <b>Positive particle drifting</b><br>
+    A positive particle drifts towards the left, towards the result of B cross gradient-B.
+  </p>
+  </div>
+
+</div>
+
+<h2 style="text-align: center; margin-top: 35px; margin-bottom: 10px;">
+  Setting up toroid axes
+</h2>
+
+<hr style="margin-top: 10px; margin-bottom: 30px; border: 0; border-top: 1px solid #ffffff;">
+
+<div style="max-width: 720px; margin: 0 auto 40px auto; font-size: 1.05em; line-height: 1.6; color: #e0e0e0; text-align: left;">
+  
+  In order to get an understanding of what may cause a magnetic field gradient or an electric field in a tokamak fusion reactor, let's get a common understanding of axes and the geometry of a tokamak. For these examples, we'll use a simple ring torus example tokamak reactor.
+
+</div>
+
+<div style="display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
+
+  <!-- Left Column: Final Animation -->
+  <div style="flex: 1; min-width: 400px;">
+    <img src="{{ 'assets/images/toroidal-axes.png' | relative_url }}" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="Tokamak toroidal axes">
+
+  <!-- Caption -->
+  <p style="font-size: 0.95em; text-align: center; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
+    <b>Toroidal axes</b><br>
+    We'll call the orange upward arrow the z axis. The pink arrow in-plane with the torus that is facing outwards is the "radial" axis, 
+  </p>
+  </div>
+
+  <!-- Right Column: Wireframe Breakdown -->
+  <div style="flex: 1; min-width: 400px;">
+    <img src="{{ 'assets/images/poloidal-axis-pic.png' | relative_url }}" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="Tokamak poloidal axes">
+
+  <!-- Caption -->
+  <p style="font-size: 0.95em; text-align: center; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
+    <b>Poloidal axes</b><br>
     A positive particle drifts towards the left, towards the result of B cross gradient-B.
   </p>
   </div>

@@ -39,7 +39,8 @@ Welcome to my portfolio I've made to organize my 3D animations made in Blender. 
   <!-- Caption & Description -->
   <p style="font-size: 0.95em; color: #555; margin-top: 12px; line-height: 1.5;">
     <b>Cyclotron gyration around field lines with added drift</b><br>
-    Charged particles still gyrate around field lines, but the center of their orbits drift perpendicular to the field lines.
+    Charged particles still gyrate around field lines, but the center of their orbits drift perpendicular to the field lines. The direction of drift depends on how we 
+    alter the components relevant to the Lorentz force, E and B.
   </p>
 
 </div>

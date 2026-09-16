@@ -43,6 +43,8 @@ Welcome to my portfolio I've made to organize my 3D animations made in Blender. 
 
 ## How do charged particles behave under uniform magnetic fields?
 
+---
+
 <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
 
   <!-- Left Column: Final Animation -->
@@ -63,6 +65,8 @@ Welcome to my portfolio I've made to organize my 3D animations made in Blender. 
 </div>
 
 ## What if we vary the magnetic field, or introduce electric field?
+
+---
 
 <!-- Central Focus Container -->
 <div style="max-width: 720px; margin: 0 auto 40px auto; text-align: center;">

@@ -27,3 +27,19 @@ Welcome to my portfolio I've made to organize my 3D animations made in Blender. 
   </div>
 
 </div>
+
+## What if we vary the magnetic field, or introduce electric field?
+
+<!-- Central Focus Container -->
+<div style="max-width: 720px; margin: 0 auto 40px auto; text-align: center;">
+
+  <!-- Main Video / Image -->
+  <img src="{{ 'assets/images/cyclotron-helix-parts-drift.png' | relative_url }}" width="75%" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="Cyclotron gyration with drift">
+  
+  <!-- Caption & Description -->
+  <p style="font-size: 0.95em; color: #555; margin-top: 12px; line-height: 1.5;">
+    <b>Cyclotron gyration around field lines with added drift</b><br>
+    Charged particles still gyrate around field lines, but the center of their orbits drift perpendicular to the field lines.
+  </p>
+
+</div>

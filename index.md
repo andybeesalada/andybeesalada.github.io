@@ -186,14 +186,14 @@ Some physical realities are hard to visualize 100% true to life, so I took some 
 
   <!-- Main Video / Image -->
   <video autoplay loop muted playsinline width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-      <source src="{{ 'assets/videos/cyclo-gyration.mp4' | relative_url }}" type="video/mp4">
+      <source src="{{ 'assets/videos/toroid-field-current-loops.mp4' | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   
   <!-- Caption & Description -->
   <p style="font-size: 0.95em; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
     <b>Poloidal current loops ($\vec I$) create toroidal $\vec B$</b><br>
-    Imagine a solenoid, where a straight magnetic field is created by a tightly-wrapped current-carrying wire. Particles following these field lines will stream out of the end of the solenoid. But wrap it into a ring so the ends meet, and $\vec B$ becomes a circular path to trap particles.
+    Imagine a solenoid, where tightly-wrapped current-carrying wire creates a straight magnetic field. Particles following these field lines will stream out of the end of the solenoid. But wrap it into a ring so the ends meet, and $\vec B$ becomes a circular path to trap particles.
   </p>
 
 </div>
@@ -207,7 +207,10 @@ Some physical realities are hard to visualize 100% true to life, so I took some 
 <div style="max-width: 720px; margin: 0 auto 40px auto; text-align: center;">
 
   <!-- Main Video / Image -->
-  <img src="{{ 'assets/images/cyclotron-helix-parts-drift.png' | relative_url }}" width="100%" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="Cyclotron gyration with drift">
+  <video autoplay loop muted playsinline width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <source src="{{ 'assets/videos/grad-explain-loops.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
   
   <!-- Caption & Description -->
   <p style="font-size: 0.95em; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">

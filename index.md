@@ -262,7 +262,7 @@ Some physical realities are hard to visualize 100% true to life, so I took some 
 <div style="max-width: 720px; margin: 0 auto 40px auto; text-align: center;">
 
   <!-- Main Video / Image -->
- <img src="{{ 'assets/images/grad-drift-directions-basic.png' | relative_url }}" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="E cross B Drift Directions">
+ <img src="{{ 'assets/images/ecross-drift-basic.png' | relative_url }}" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="E cross B Drift Directions">
   
   <!-- Caption & Description -->
   <p style="font-size: 0.95em; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">

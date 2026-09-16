@@ -67,7 +67,7 @@ Welcome to my portfolio I've made to organize my 3D animations made in Blender. 
 
 </div>
 
-## What if we vary the magnetic field, or introduce an electric field?
+## What if we vary the magnetic field or introduce an electric field?
 
 ---
 

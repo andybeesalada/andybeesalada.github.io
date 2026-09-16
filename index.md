@@ -252,3 +252,24 @@ Some physical realities are hard to visualize 100% true to life, so I took some 
   </div>
 
 </div>
+
+<h2 style="text-align: center; margin-top: 35px; margin-bottom: 10px;">
+  Now that we have an electric field as well, what happens?
+</h2>
+
+<hr style="margin-top: 10px; margin-bottom: 30px; border: 0; border-top: 1px solid #ffffff;">
+
+<div style="max-width: 720px; margin: 0 auto 40px auto; text-align: center;">
+
+  <!-- Main Video / Image -->
+ <img src="{{ 'assets/images/grad-drift-directions-basic.png' | relative_url }}" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="E cross B Drift Directions">
+  
+  <!-- Caption & Description -->
+  <p style="font-size: 0.95em; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
+    <b>Drift due to electric field from gradient charge separation</b><br>
+    We now know that there will be an electric field, pointing towards $-\hat z$, due to the charge separation caused by gradient drifts. The drift caused by this electric field will point towards the cross product $\vec E\times\vec B$, but will not depend on the particle's charge, $q$. Both negative and positive particles will drift in the same direction.<br> Anywhere on the torus, the result of $\vec E$ crossed with $\vec B$ will point radially outwards, towards $\hat r$. So, positive and negative particles alike get flung outwards against the walls of our reactor.
+  </p>
+
+</div>
+
+

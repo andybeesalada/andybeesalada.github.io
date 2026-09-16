@@ -103,7 +103,7 @@ Welcome to my portfolio I've made to organize my 3D animations made in Blender. 
     <img src="{{ 'assets/images/speed-mag-grad-neg-drift.gif' | relative_url }}" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="Negative particle gradient drift">
 
   <!-- Caption -->
-  <p style="font-size: 0.95em; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
+  <p style="font-size: 0.95em; text-align: center; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
     <b>Negative particle drifting</b><br>
     A negative particle drifts towards the right, opposite the result of B cross gradient-B.
   </p>
@@ -114,7 +114,7 @@ Welcome to my portfolio I've made to organize my 3D animations made in Blender. 
     <img src="{{ 'assets/images/speed-mag-grad-pos-drift.gif' | relative_url }}" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="Positive particle gradient drift">
 
   <!-- Caption -->
-  <p style="font-size: 0.95em; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
+  <p style="font-size: 0.95em; text-align: center; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
     <b>Animation Title</b><br>
     A positive particle drifts towards the left, towards the result of B cross gradient-B.
   </p>

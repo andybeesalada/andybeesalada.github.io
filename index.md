@@ -159,7 +159,7 @@ Some physical realities are hard to visualize 100% true to life, so I took some 
   <!-- Caption -->
   <p style="font-size: 0.95em; text-align: center; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
     <b>Toroidal axes</b><br>
-    We'll call the orange upward arrow $\hat z$. The pink arrow in-plane with the torus that is facing outwards is the "radial" axis, $\hat r$. Finally, the green ring     around the torus is the $\hat\theta$ axis, which we'll define to be counter-clockwise (towards the blue arrows). 
+    We'll call the orange upward arrow $\hat z$. The pink arrow in-plane with the toroid that is facing outwards is the "radial" axis, $\hat r$. Finally, the green ring around the toroid is the $\hat\theta$ axis, which we'll define to be counter-clockwise (towards the blue arrows). 
   </p>
   </div>
 
@@ -215,7 +215,7 @@ Some physical realities are hard to visualize 100% true to life, so I took some 
   <!-- Caption & Description -->
   <p style="font-size: 0.95em; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
     <b>Cyclotron gyration with added drift</b><br>
-    In a regular solenoid, $\vec B$ is spatially uniform and doesn't depend on position inside the solenoid's cross section. However, this is no longer true after wrapping it into a torus. Current loop density is higher on the inner radius of the torus than the outer radius, making $\vec B$ stronger when particles are closer to the torus "donut hole." This produces $\vec{\nabla}B$ that points towards $-\hat r$, radially inwards from weak field towards high.<br>
+    In a regular solenoid, $\vec B$ is spatially uniform and doesn't depend on position inside the solenoid's cross section. However, this is no longer true after wrapping it into a toroid. Current loop density is higher on the inner radius of the toroid than the outer radius, making $\vec B$ stronger when particles are closer to the "donut hole." This produces $\vec{\nabla}B$ that points towards $-\hat r$, radially inwards from weak field towards high.<br>
     The inner blue line segment represents the gap between inner radius current loops, and the orange represents outer radius ones. The difference is more pronounced and noticeable if you shrink the inner radius compared to outer.
   </p>
 
@@ -236,7 +236,7 @@ Some physical realities are hard to visualize 100% true to life, so I took some 
   <!-- Caption -->
   <p style="font-size: 0.95em; text-align: center; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
     <b>Toroid axes with gradient vector</b><br>
-    This diagram shows the axes of our torus with the $\vec{\nabla}B\rightarrow -\hat r$ vector in dark blue. The magnetic field $\vec B$ is in light blue, along $\hat\theta$.
+    This diagram shows the axes of our toroid with the $\vec{\nabla}B\rightarrow -\hat r$ vector in dark blue. The magnetic field $\vec B$ is in light blue, along $\hat\theta$.
   </p>
   </div>
 
@@ -293,7 +293,7 @@ Some physical realities are hard to visualize 100% true to life, so I took some 
   <!-- Caption & Description -->
   <p style="font-size: 0.95em; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
     <b>Drift due to electric field from gradient charge separation</b><br>
-    We now know that there will be an electric field, pointing towards $-\hat z$, due to the charge separation caused by gradient drifts. The drift caused by this electric field will point towards the cross product $\vec E\times\vec B$, but will not depend on the particle's charge, $q$. Both negative and positive particles will drift in the same direction.<br> Anywhere on the torus, the result of $\vec E$ crossed with $\vec B$ will point radially outwards, towards $\hat r$. So, positive and negative particles alike get flung outwards against the walls of our reactor.
+    We now know that there will be an electric field in our reactor, pointing towards $-\hat z$, due to the charge separation caused by gradient drifts. The drift caused by this electric field will point towards the cross product $\vec E\times\vec B$, but will not depend on the particle's charge, $q$. Both negative and positive particles will drift in the same direction.<br> Anywhere in the toroid, the result of $\vec E$ crossed with $\vec B$ will point radially outwards, towards $\hat r$. So, positive and negative particles alike get flung outwards against the walls of our reactor.
   </p>
 
 </div>
@@ -331,8 +331,26 @@ Some physical realities are hard to visualize 100% true to life, so I took some 
   <!-- Caption & Description -->
   <p style="font-size: 0.95em; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
     <b>Combined drifts in tokamak (ring orbit representation)</b><br>
-    The charged particles will always have their cyclotron gyration around the magnetic field lines, which we can see from the Lorentz force. However, these orbits don't cause problems like heat transfer to walls, because on average, cyclotron gyration will keep the particles in the same general area. So, it can be useful when doing calculations like these to average motion over full cyclotron gyrations. This leaves us with the more important components of motion, like $\vec\nabla B$ and $\vec E\times\vec B$ drifts. <br>That is why I made two versions of this animation, one with the particles represented as orbs/points, and another with just the orbit represented as a ring. This makes it easier to follow the motion of the guiding center, and see that the drift is vertical and radially outwards.
+    The charged particles will always have their cyclotron gyration around the magnetic field lines due to the Lorentz force. However, these orbits don't cause problems like heat transfer to walls, because on average, cyclotron gyration will keep the particles in the same general area. So, it can be useful when doing calculations like these to average motion over full cyclotron gyrations. This leaves us with the more important components of motion, like $\vec\nabla B$ and $\vec E\times\vec B$ drifts. <br>That is why I made two versions of this animation, one with the particles represented as orbs/points, and another with just the orbit represented as a ring. This makes it easier to follow the motion of the guiding center, and see that the drift is vertical and radially outwards.
   </p>
 
 </div>
 
+<h2 style="text-align: center; margin-top: 35px; margin-bottom: 10px;">
+  How do we take these drifts into account and improve particle confinement?
+</h2>
+
+<hr style="margin-top: 10px; margin-bottom: 30px; border: 0; border-top: 1px solid #ffffff;">
+
+<div style="max-width: 720px; margin: 0 auto 40px auto; text-align: center;">
+
+  <!-- Main Video / Image -->
+ <img src="{{ 'assets/images/upwards-downwards-median-cancel.png' | relative_url }}" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="Above and below midpoint cancellation">
+  
+  <!-- Caption & Description -->
+  <p style="font-size: 0.95em; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
+    <b>Toroid cross section, cyclotron orbit overlaid</b><br>
+    Let's consider the example of a positive particle drifting upwards due to $\vec\nabla B$ drift. It will follow the field lines around the toroid, but drift upwards into the ceiling of our reactor. Let's consider adding a poloidal component to our magnetic field, such that in the cross section of the toroid, the field line is a circle. We can see that as the particle travels along this poloidal field, it spends half its time above the midpoint of this cross section, and the other half below. Effectively, the particle will spend half its time drifting away from the midpoint, and the other half drifting back towards it. The same applies for negative particles, but in the opposite direction. This will help us keep our particles confined.
+  </p>
+
+</div>

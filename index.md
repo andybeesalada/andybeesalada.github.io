@@ -259,6 +259,32 @@ Some physical realities are hard to visualize 100% true to life, so I took some 
 
 <hr style="margin-top: 10px; margin-bottom: 30px; border: 0; border-top: 1px solid #ffffff;">
 
+<div style="display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
+
+  <!-- Left Column: Final Animation -->
+  <div style="flex: 1; min-width: 320px;">
+    <img src="{{ 'assets/images/e-cross-b-parts-drift.gif' | relative_url }}" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="E cross B perpendicular drift gif">
+
+  <!-- Caption -->
+  <p style="font-size: 0.95em; text-align: center; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
+    <b>$\vec E\times\vec B$ drift</b><br>
+    This GIF shows the drift directions of positive particles, where $\vec E$ points downward and $\vec B$ points out of the page. Both positive and negative particles drift the same direction.
+  </p>
+  </div>
+
+  <!-- Right Column: Wireframe Breakdown -->
+  <div style="flex: 1; min-width: 320px;">
+    <img src="{{ 'assets/images/grad-drift-directions-basic.png' | relative_url }}" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="E cross B perpendicular drift no init v gif">
+
+  <!-- Caption -->
+  <p style="font-size: 0.95em; text-align: center; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
+    <b>temp</b><br>
+    temp.
+  </p>
+  </div>
+
+</div>
+
 <div style="max-width: 720px; margin: 0 auto 40px auto; text-align: center;">
 
   <!-- Main Video / Image -->

@@ -154,7 +154,7 @@ Some physical realities are hard to visualize 100% true to life, so I took some 
 
   <!-- Left Column: Final Animation -->
   <div style="flex: 1; min-width: 400px;">
-    <img src="{{ 'assets/images/toroid axes labelled.png' | relative_url }}" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="Tokamak toroidal axes">
+    <img src="{{ 'assets/images/toroid-axes-labelled.png' | relative_url }}" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="Tokamak toroidal axes">
 
   <!-- Caption -->
   <p style="font-size: 0.95em; text-align: center; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">

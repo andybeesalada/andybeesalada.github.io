@@ -215,7 +215,8 @@ Some physical realities are hard to visualize 100% true to life, so I took some 
   <!-- Caption & Description -->
   <p style="font-size: 0.95em; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
     <b>Cyclotron gyration with added drift</b><br>
-    In a regular solenoid, $\vec B$ is spatially uniform and doesn't depend on position inside the solenoid's cross section. However, this is no longer true after wrapping it into a torus. Current loop density is higher on the inner radius of the torus than the outer radius, making $\vec B$ stronger when particles are closer to the torus "donut hole." This produces $\vec{\nabla}B$ that points towards $-\hat r$, radially inwards from weak field towards high.
+    In a regular solenoid, $\vec B$ is spatially uniform and doesn't depend on position inside the solenoid's cross section. However, this is no longer true after wrapping it into a torus. Current loop density is higher on the inner radius of the torus than the outer radius, making $\vec B$ stronger when particles are closer to the torus "donut hole." This produces $\vec{\nabla}B$ that points towards $-\hat r$, radially inwards from weak field towards high.<br>
+    The inner orange line segment represents the gap between inner radius current loops, and the blue represents outer radius ones. The difference is more pronounced and noticeable if you shrink the inner radius compared to outer.
   </p>
 
 </div>

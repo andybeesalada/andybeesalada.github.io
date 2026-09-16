@@ -41,10 +41,12 @@ Welcome to my portfolio I've made to organize my 3D animations made in Blender. 
 
 ---
 
-## How do charged particles behave under uniform magnetic fields?
+<h2 style="text-align: center; margin-top: 35px; margin-bottom: 10px;">
+  How do charged particles behave under uniform magnetic fields?
+</h2>
 
 
-<hr style="margin-top: 10px; margin-bottom: 30px; border: 0; border-top: 4px solid #ffffff;">
+<hr style="margin-top: 10px; margin-bottom: 30px; border: 0; border-top: 1px solid #ffffff;">
 
 <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
 
@@ -65,7 +67,7 @@ Welcome to my portfolio I've made to organize my 3D animations made in Blender. 
 
 </div>
 
-## What if we vary the magnetic field, or introduce electric field?
+## What if we vary the magnetic field, or introduce an electric field?
 
 ---
 
@@ -78,9 +80,44 @@ Welcome to my portfolio I've made to organize my 3D animations made in Blender. 
   <!-- Caption & Description -->
   <p style="font-size: 0.95em; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
     <b>Cyclotron gyration with added drift</b><br>
-    Particles still gyrate around field lines, but now the center of their orbits drifts perpendicular to B. The direction of drift depends on how the components of the Lorentz force are changing, E and B.
+    Particles still gyrate around field lines, but now the center of their orbits drifts perpendicular to B. The direction of drift depends on how the components of the Lorentz force, E and B, are changing.
   </p>
 
 </div>
 
+## How do charged particles behave under spatially non-uniform magnetic fields?
 
+
+<hr style="margin-top: 10px; margin-bottom: 30px; border: 0; border-top: 1px solid #ffffff;">
+
+<div style="max-width: 720px; margin: 0 auto 40px auto; font-size: 1.05em; line-height: 1.6; color: #e0e0e0; text-align: left;">
+  
+  The drift direction arising from a magnetic field gradient will point towards the direction of B crossed with gradient-B. Oppositely charged particles will drift in opposite directions. The following animations display an upwards gradient-B direction (dark blue arrow), with the magnetic field B pointing out of the page (light blue).
+
+</div>
+
+<div style="display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
+
+  <!-- Left Column: Final Animation -->
+  <div style="flex: 1; min-width: 320px;">
+    <img src="{{ 'assets/images/speed-mag-grad-neg-drift.gif' | relative_url }}" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="Negative particle gradient drift">
+
+  <!-- Caption -->
+  <p style="font-size: 0.95em; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
+    <b>Negative particle drifting</b><br>
+    A negative particle drifts towards the right, opposite the result of B cross gradient-B.
+  </p>
+  </div>
+
+  <!-- Right Column: Wireframe Breakdown -->
+  <div style="flex: 1; min-width: 320px;">
+    <img src="{{ 'assets/images/speed-mag-grad-pos-drift.gif' | relative_url }}" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="Positive particle gradient drift">
+
+  <!-- Caption -->
+  <p style="font-size: 0.95em; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
+    <b>Animation Title</b><br>
+    A positive particle drifts towards the left, towards the result of B cross gradient-B.
+  </p>
+  </div>
+
+</div>

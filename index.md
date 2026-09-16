@@ -153,7 +153,7 @@ Some physical realities are hard to visualize 100% true to life, so I took some 
 <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
 
   <!-- Left Column: Final Animation -->
-  <div style="flex: 1; min-width: 400px;">
+  <div style="flex: 1; min-width: 320px;">
     <img src="{{ 'assets/images/toroid-axes-labelled.png' | relative_url }}" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="Tokamak toroidal axes">
 
   <!-- Caption -->
@@ -164,7 +164,7 @@ Some physical realities are hard to visualize 100% true to life, so I took some 
   </div>
 
   <!-- Right Column: Wireframe Breakdown -->
-  <div style="flex: 1; min-width: 400px;">
+  <div style="flex: 1; min-width: 320px;">
     <img src="{{ 'assets/images/poloidal-axis-labelled.png' | relative_url }}" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="Tokamak poloidal axes">
 
   <!-- Caption -->
@@ -218,5 +218,37 @@ Some physical realities are hard to visualize 100% true to life, so I took some 
     In a regular solenoid, $\vec B$ is spatially uniform and doesn't depend on position inside the solenoid's cross section. However, this is no longer true after wrapping it into a torus. Current loop density is higher on the inner radius of the torus than the outer radius, making $\vec B$ stronger when particles are closer to the torus "donut hole." This produces $\vec{\nabla}B$ that points towards $-\hat r$, radially inwards from weak field towards high.<br>
     The inner blue line segment represents the gap between inner radius current loops, and the orange represents outer radius ones. The difference is more pronounced and noticeable if you shrink the inner radius compared to outer.
   </p>
+
+</div>
+
+<h2 style="text-align: center; margin-top: 35px; margin-bottom: 10px;">
+  What drifts come from this magnetic field gradient?
+</h2>
+
+<hr style="margin-top: 10px; margin-bottom: 30px; border: 0; border-top: 1px solid #ffffff;">
+
+<div style="display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
+
+  <!-- Left Column: Final Animation -->
+  <div style="flex: 1; min-width: 320px;">
+    <img src="{{ 'assets/images/poloidal-axis-labelled.png' | relative_url }}" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="Tokamak toroidal axes">
+
+  <!-- Caption -->
+  <p style="font-size: 0.95em; text-align: center; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
+    <b>Toroidal axes</b><br>
+    We'll call the orange upward arrow $\hat z$. The pink arrow in-plane with the torus that is facing outwards is the "radial" axis, $\hat r$. Finally, the green ring     around the torus is the $\hat\theta$ axis, which we'll define to be counter-clockwise (towards the blue arrows). 
+  </p>
+  </div>
+
+  <!-- Right Column: Wireframe Breakdown -->
+  <div style="flex: 1; min-width: 320px;">
+    <img src="{{ 'assets/images/poloidal-axis-labelled.png' | relative_url }}" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="Tokamak poloidal axes">
+
+  <!-- Caption -->
+  <p style="font-size: 0.95em; text-align: center; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
+    <b>Poloidal axes</b><br>
+    On this diagram, the axis of note is poloidal, the blue ring with orange arrows. We'll call this $\hat\phi$, and define to to be clockwise (towards the orange arrows). 
+  </p>
+  </div>
 
 </div>

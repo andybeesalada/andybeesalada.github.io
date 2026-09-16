@@ -43,7 +43,8 @@ Welcome to my portfolio I've made to organize my 3D animations made in Blender. 
 
 ## How do charged particles behave under uniform magnetic fields?
 
----
+
+<hr style="margin-top: 10px; margin-bottom: 30px; border: 0; border-top: 1px solid #333;">
 
 <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
 
@@ -53,13 +54,13 @@ Welcome to my portfolio I've made to organize my 3D animations made in Blender. 
       <source src="{{ 'assets/videos/cyclo-gyration.mp4' | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
-    <p style="text-align: center; font-size: 0.9em; color: #b0b0b0; margin-top: 8px;"><b>Cyclotron Motion</b><br>Charged particles gyrate under a uniform magnetic field (no electric field). The direction depends on the charge of the particle.</p>
+    <p style="text-align: center; font-size: 0.9em; color: #b0b0b0; margin-top: 8px;"><b>Cyclotron gyration</b><br>Charged particles gyrate under a uniform magnetic field (no electric field). The direction depends on the charge of the particle.</p>
   </div>
 
   <!-- Right Column: Wireframe Breakdown -->
   <div style="flex: 1; min-width: 320px;">
     <img src="{{ 'assets/images/cyclotron-helix-parts.png' | relative_url }}" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="With Nonzero Initial Velocity">
-    <p style="text-align: center; font-size: 0.9em; color: #b0b0b0; margin-top: 8px;"><b>With Nonzero Initial Velocity</b><br>Particles with nonzero initial velocity along the field line will keep that velocity, and gyrate around field lines.</p>
+    <p style="text-align: center; font-size: 0.9em; color: #b0b0b0; margin-top: 8px;"><b>With nonzero initial velocity</b><br>Particles with nonzero initial velocity along the field line will keep that velocity, and gyrate around field lines.</p>
   </div>
 
 </div>
@@ -76,9 +77,10 @@ Welcome to my portfolio I've made to organize my 3D animations made in Blender. 
   
   <!-- Caption & Description -->
   <p style="font-size: 0.95em; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
-    <b>Cyclotron gyration around field lines with added drift</b><br>
-    Charged particles still gyrate around field lines, but the center of their orbits drift perpendicular to the field lines. The direction of drift depends on how we 
-    alter the components relevant to the Lorentz force, E and B.
+    <b></b><br>
+    .
   </p>
 
 </div>
+
+

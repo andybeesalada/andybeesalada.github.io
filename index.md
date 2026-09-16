@@ -37,7 +37,7 @@ title: "Charged Particle Motion in a Toroid: Tokamak"
   }
 </style>
 
-"Welcome to the portfolio I've made to organize my 3D animations made in Blender. I created these for my undergraduate senior thesis project, focusing on charged particle motion under electric and magnetic fields, specifically applied to the geometry of a tokamak nuclear fusion reactor. This presentation looked through the lens of single particle motion, though if I had more time I would have liked to explore further into magneto-hydrodynamics.\n
+"Welcome to the portfolio I've made to organize my 3D animations made in Blender. I created these for my undergraduate senior thesis project, focusing on charged particle motion under electric and magnetic fields, specifically applied to the geometry of a tokamak nuclear fusion reactor. This presentation looked through the lens of single particle motion, though if I had more time I would have liked to explore further into magneto-hydrodynamics.<br>
 Some physical realities are hard to visualize 100% true to life, so I took some creative liberties in these animations. My goal was to efficiently and accurately communicate these ideas during a limited presentation time, in the form of a slideshow. I felt that 3D animation would allow me to explain complicated concepts tied to the geometry of the nuclear reactors I researched."
 
 <hr style="margin-top: 10px; margin-bottom: 30px; border: 0; border-top: 1px solid #ffffff;">

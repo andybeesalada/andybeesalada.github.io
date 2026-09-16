@@ -12,6 +12,7 @@ title: "Charged Particle Motion in a Toroid: Tokamak"
   /* Headings Color */
   h1, h2, h3, h4, h5, h6 {
     color: #ffffff !important;
+    text-align: center !important;
   }
 
   /* Links Color */
@@ -19,9 +20,20 @@ title: "Charged Particle Motion in a Toroid: Tokamak"
     color: #64b5f6 !important;
   }
 
-  /* Secondary Text (for your captions) */
-  p style, .caption-text {
-    color: #b0b0b0 !important;
+  /* Header / Title Bar Background & Accent */
+  header, .site-header, .page-header {
+    background-color: #2a2438 !important; /* Optional: dark muted purple container background */
+    background-image: none !important;    /* Clears default theme blue gradients */
+  }
+
+  /* Site Title Font Color (Lilac / Pastel Purple) */
+  .site-title, .page-title, .site-header a, header h1, header h2 {
+    color: #c8b6ff !important;
+  }
+
+  /* Hover state for title link */
+  .site-title:hover, .site-header a:hover {
+    color: #e7c6ff !important;
   }
 </style>
 

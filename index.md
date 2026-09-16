@@ -80,7 +80,9 @@ Some physical realities are hard to visualize 100% true to life, so I took some 
 
 </div>
 
-## What if we vary the magnetic field or introduce an electric field?
+<h2 style="text-align: center; margin-top: 35px; margin-bottom: 10px;">
+  What if we vary the magnetic field or introduce an electric field?
+</h2>
 
 <hr style="margin-top: 10px; margin-bottom: 30px; border: 0; border-top: 1px solid #ffffff;">
 
@@ -93,19 +95,20 @@ Some physical realities are hard to visualize 100% true to life, so I took some 
   <!-- Caption & Description -->
   <p style="font-size: 0.95em; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
     <b>Cyclotron gyration with added drift</b><br>
-    Particles still gyrate around field lines, but now the center of their orbits drifts perpendicular to B. The direction of drift depends on how the components of the Lorentz force, E and B, are changing.
+    Particles still gyrate around field lines, but now the center of their orbits drifts perpendicular to $\vec B$. This "guiding center drift" depends on changes in$\vec B$ and $\vec E$, because of the Lorentz force: $$ \vec F=q(\vec E+\vec v\times\vec B) $$
   </p>
 
 </div>
 
-## How do charged particles behave under spatially non-uniform magnetic fields?
-
+<h2 style="text-align: center; margin-top: 35px; margin-bottom: 10px;">
+  How do charged particles behave under spatially non-uniform magnetic fields?
+</h2>
 
 <hr style="margin-top: 10px; margin-bottom: 30px; border: 0; border-top: 1px solid #ffffff;">
 
 <div style="max-width: 720px; margin: 0 auto 40px auto; font-size: 1.05em; line-height: 1.6; color: #e0e0e0; text-align: left;">
   
-  The drift direction arising from a magnetic field gradient will point towards the direction of B crossed with gradient-B. Oppositely charged particles will drift in opposite directions. The following animations display an upwards gradient-B direction (dark blue arrow), with the magnetic field B pointing out of the page (light blue).
+  The drift direction arising from a magnetic field gradient will point along the direction of $\vec B\times\vec{\nabla}B$. Oppositely charged particles will drift in opposite directions. The following animations display an upwards $\vec{\nabla}B$ direction (dark blue arrow), with $\vec B$ pointing out of the page (light blue).
 
 </div>
 
@@ -118,7 +121,7 @@ Some physical realities are hard to visualize 100% true to life, so I took some 
   <!-- Caption -->
   <p style="font-size: 0.95em; text-align: center; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
     <b>Negative particle drifting</b><br>
-    A negative particle drifts towards the right, opposite the result of B cross gradient-B.
+    A negative particle drifts towards the right, opposite the result of $\vec B\times\vec{\nabla}B$.
   </p>
   </div>
 
@@ -129,7 +132,7 @@ Some physical realities are hard to visualize 100% true to life, so I took some 
   <!-- Caption -->
   <p style="font-size: 0.95em; text-align: center; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
     <b>Positive particle drifting</b><br>
-    A positive particle drifts towards the left, towards the result of B cross gradient-B.
+    A positive particle drifts towards the left, towards the result of $\vec B\times\vec{\nabla}B$.
   </p>
   </div>
 
@@ -156,7 +159,7 @@ Some physical realities are hard to visualize 100% true to life, so I took some 
   <!-- Caption -->
   <p style="font-size: 0.95em; text-align: center; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
     <b>Toroidal axes</b><br>
-    We'll call the orange upward arrow the z axis. The pink arrow in-plane with the torus that is facing outwards is the "radial" axis, 
+    We'll call the orange upward arrow $\hat z$. The pink arrow in-plane with the torus that is facing outwards is the "radial" axis, $\hat r$. Finally, the green ring     around the torus is the $\hat\theta$ axis, which we'll define to be counter-clockwise (towards the blue arrows). 
   </p>
   </div>
 
@@ -167,7 +170,7 @@ Some physical realities are hard to visualize 100% true to life, so I took some 
   <!-- Caption -->
   <p style="font-size: 0.95em; text-align: center; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
     <b>Poloidal axes</b><br>
-    A positive particle drifts towards the left, towards the result of B cross gradient-B.
+    On this diagram, the axis of note is poloidal, the blue ring with orange arrows. We'll call this $\hat\phi$, and define to to be clockwise (towards the orange arrows). 
   </p>
   </div>
 

@@ -231,23 +231,23 @@ Some physical realities are hard to visualize 100% true to life, so I took some 
 
   <!-- Left Column: Final Animation -->
   <div style="flex: 1; min-width: 320px;">
-    <img src="{{ 'assets/images/poloidal-axis-labelled.png' | relative_url }}" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="Tokamak toroidal axes">
+    <img src="{{ 'assets/images/grad-drift-gradient-inward.png' | relative_url }}" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="Tokamak toroidal axes">
 
   <!-- Caption -->
   <p style="font-size: 0.95em; text-align: center; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
-    <b>Toroidal axes</b><br>
-    We'll call the orange upward arrow $\hat z$. The pink arrow in-plane with the torus that is facing outwards is the "radial" axis, $\hat r$. Finally, the green ring     around the torus is the $\hat\theta$ axis, which we'll define to be counter-clockwise (towards the blue arrows). 
+    <b>Toroid axes with gradient vector</b><br>
+    This diagram shows the axes of our torus with the $\vec{\nabla}\rightarrow -\hat r$ vector in dark blue. The magnetic field $\vec B$ is in light blue, along $\hat\theta$.
   </p>
   </div>
 
   <!-- Right Column: Wireframe Breakdown -->
   <div style="flex: 1; min-width: 320px;">
-    <img src="{{ 'assets/images/poloidal-axis-labelled.png' | relative_url }}" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="Tokamak poloidal axes">
+    <img src="{{ 'assets/images/grad-drift-directions-basic.png' | relative_url }}" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="Tokamak poloidal axes">
 
   <!-- Caption -->
   <p style="font-size: 0.95em; text-align: center; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
-    <b>Poloidal axes</b><br>
-    On this diagram, the axis of note is poloidal, the blue ring with orange arrows. We'll call this $\hat\phi$, and define to to be clockwise (towards the orange arrows). 
+    <b>Positive and negative particle drift directions</b><br>
+    The cross product $\vec B\times\vec{\nabla}B$ points towards $\hat z$. Positive particles will then drift towards $+\hat z$, while negative will drift towards $-\hat z$. This results in charge separation, and an electric field pointing from positive particles to negative, or towards $-\hat z$.
   </p>
   </div>
 

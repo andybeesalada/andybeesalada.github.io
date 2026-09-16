@@ -68,13 +68,13 @@ Some physical realities are hard to visualize 100% true to life, so I took some 
       <source src="{{ 'assets/videos/cyclo-gyration.mp4' | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
-    <p style="text-align: center; font-size: 0.9em; color: #b0b0b0; margin-top: 8px;"><b>Cyclotron gyration</b><br>Charged particles gyrate under a uniform magnetic field (no electric field). The direction depends on the charge of the particle.</p>
+    <p style="text-align: center; font-size: 0.9em; color: #b0b0b0; margin-top: 8px;"><b>Cyclotron gyration</b><br>Charged particles gyrate under a uniform magnetic field, $\vec{B}$. No electric field here, so $\vec{E}=0$. The direction of gyration depends on the charge of the particle, $q$.</p>
   </div>
 
   <!-- Right Column: Wireframe Breakdown -->
   <div style="flex: 1; min-width: 320px;">
     <img src="{{ 'assets/images/cyclotron-helix-parts.png' | relative_url }}" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="With Nonzero Initial Velocity">
-    <p style="text-align: center; font-size: 0.9em; color: #b0b0b0; margin-top: 8px;"><b>With nonzero initial velocity</b><br>Particles with nonzero initial velocity along the field line will keep that velocity, and gyrate around field lines.</p>
+    <p style="text-align: center; font-size: 0.9em; color: #b0b0b0; margin-top: 8px;"><b>With $v_{\parallel}\neq0\;m/s$</b><br>Particles with nonzero initial velocity along the field line will keep that velocity, and gyrate around field lines.</p>
   </div>
 
 </div>

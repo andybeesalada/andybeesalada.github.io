@@ -262,24 +262,24 @@ Some physical realities are hard to visualize 100% true to life, so I took some 
 <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
 
   <!-- Left Column: Final Animation -->
-  <div style="flex: 1; min-width: 320px;">
+  <div style="flex: 1; min-width: 320px; transform: rotate(180deg);">
     <img src="{{ 'assets/images/e-cross-b-parts-drift.gif' | relative_url }}" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="E cross B perpendicular drift gif">
 
   <!-- Caption -->
   <p style="font-size: 0.95em; text-align: center; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
     <b>$\vec E\times\vec B$ drift</b><br>
-    This GIF shows the drift directions of positive particles, where $\vec E$ points downward and $\vec B$ points out of the page. Both positive and negative particles drift the same direction.
+    This GIF shows the drift directions of particles when $\vec E$ is added. $\vec E$ points downward and $\vec B$ points out of the page. Both positive and negative particles drift the same direction.
   </p>
   </div>
 
   <!-- Right Column: Wireframe Breakdown -->
-  <div style="flex: 1; min-width: 320px;">
-    <img src="{{ 'assets/images/grad-drift-directions-basic.png' | relative_url }}" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="E cross B perpendicular drift no init v gif">
+  <div style="flex: 1; min-width: 320px; transform: rotate(180deg);">
+    <img src="{{ 'assets/images/ecross-drift-sideview-no-init-v.gif' | relative_url }}" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="E cross B perpendicular drift no init v gif">
 
   <!-- Caption -->
   <p style="font-size: 0.95em; text-align: center; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
-    <b>temp</b><br>
-    temp.
+    <b>With $v_0=0\;m/s$</b><br>
+    The particles trace a slightly different path when they begin with no initial velocity perpendicular to $\vec B$. 
   </p>
   </div>
 

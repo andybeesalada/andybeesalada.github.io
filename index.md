@@ -236,7 +236,7 @@ Some physical realities are hard to visualize 100% true to life, so I took some 
   <!-- Caption -->
   <p style="font-size: 0.95em; text-align: center; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
     <b>Toroid axes with gradient vector</b><br>
-    This diagram shows the axes of our torus with the $\vec{\nabla}\rightarrow -\hat r$ vector in dark blue. The magnetic field $\vec B$ is in light blue, along $\hat\theta$.
+    This diagram shows the axes of our torus with the $\vec{\nabla}B\rightarrow -\hat r$ vector in dark blue. The magnetic field $\vec B$ is in light blue, along $\hat\theta$.
   </p>
   </div>
 

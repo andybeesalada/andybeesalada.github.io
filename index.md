@@ -99,7 +99,7 @@ Welcome to my portfolio I've made to organize my 3D animations made in Blender. 
 <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
 
   <!-- Left Column: Final Animation -->
-  <div style="flex: 1; min-width: 320px;">
+  <div style="flex: 1; min-width: 400px;">
     <img src="{{ 'assets/images/speed-mag-grad-neg-drift.gif' | relative_url }}" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="Negative particle gradient drift">
 
   <!-- Caption -->
@@ -110,7 +110,7 @@ Welcome to my portfolio I've made to organize my 3D animations made in Blender. 
   </div>
 
   <!-- Right Column: Wireframe Breakdown -->
-  <div style="flex: 1; min-width: 320px;">
+  <div style="flex: 1; min-width: 400px;">
     <img src="{{ 'assets/images/speed-mag-grad-pos-drift.gif' | relative_url }}" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="Positive particle gradient drift">
 
   <!-- Caption -->

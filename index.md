@@ -349,7 +349,7 @@ Some physical realities are hard to visualize 100% true to life, so I took some 
   
   <!-- Caption & Description -->
   <p style="font-size: 0.95em; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
-    <b>Toroid cross section, cyclotron orbit overlaid</b><br>
+    <b>Toroid cross section, poloidal $\vec B\rightarrow \hat\phi$ overlaid</b><br>
     Let's consider the example of a positive particle drifting upwards due to $\vec\nabla B$ drift. It will follow the field lines around the toroid, but drift upwards into the ceiling of our reactor. Let's consider adding a poloidal component to our magnetic field, such that in the cross section of the toroid, the field line is a circle. We can see that as the particle travels along this poloidal field, it spends half its time above the midpoint of this cross section, and the other half below. Effectively, the particle will spend half its time drifting away from the midpoint, and the other half drifting back towards it. The same applies for negative particles, but in the opposite direction. This will help us keep our particles confined.
   </p>
 

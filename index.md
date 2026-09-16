@@ -44,7 +44,7 @@ Welcome to my portfolio I've made to organize my 3D animations made in Blender. 
 ## How do charged particles behave under uniform magnetic fields?
 
 
-<hr style="margin-top: 10px; margin-bottom: 30px; border: 0; border-top: 1px solid #333;">
+<hr style="margin-top: 10px; margin-bottom: 30px; border: 0; border-top: 4px solid #333;">
 
 <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
 

@@ -115,7 +115,7 @@ Welcome to my portfolio I've made to organize my 3D animations made in Blender. 
 
   <!-- Caption -->
   <p style="font-size: 0.95em; text-align: center; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
-    <b>Animation Title</b><br>
+    <b>Positive particle drifting</b><br>
     A positive particle drifts towards the left, towards the result of B cross gradient-B.
   </p>
   </div>

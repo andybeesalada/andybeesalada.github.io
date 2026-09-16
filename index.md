@@ -262,7 +262,7 @@ Some physical realities are hard to visualize 100% true to life, so I took some 
 <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
 
   <!-- Left Column: Final Animation -->
-  <div style="flex: 1; min-width: 320px; transform: rotate(180deg);">
+  <div style="flex: 1; min-width: 320px;">
     <img src="{{ 'assets/images/e-cross-b-parts-drift.gif' | relative_url }}" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="E cross B perpendicular drift gif">
 
   <!-- Caption -->
@@ -273,7 +273,7 @@ Some physical realities are hard to visualize 100% true to life, so I took some 
   </div>
 
   <!-- Right Column: Wireframe Breakdown -->
-  <div style="flex: 1; min-width: 320px; transform: rotate(180deg);">
+  <div style="flex: 1; min-width: 320px;">
     <img src="{{ 'assets/images/ecross-drift-sideview-no-init-v.gif' | relative_url }}" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="E cross B perpendicular drift no init v gif">
 
   <!-- Caption -->

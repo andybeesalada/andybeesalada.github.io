@@ -77,8 +77,8 @@ Welcome to my portfolio I've made to organize my 3D animations made in Blender. 
   
   <!-- Caption & Description -->
   <p style="font-size: 0.95em; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
-    <b></b><br>
-    .
+    <b>Cyclotron gyration with added drift</b><br>
+    Particles still gyrate around field lines, but now the center of their orbits drifts perpendicular to B. The direction of drift depends on how the components of the Lorentz force are changing, E and B.
   </p>
 
 </div>

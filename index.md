@@ -372,7 +372,61 @@ Some physical realities are hard to visualize 100% true to life, so I took some 
   <!-- Caption & Description -->
   <p style="font-size: 0.95em; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
     <b>Toroidal and poloidal components together yield a helical field</b><br>
-    We still have the toroidal magnetic field $\vec B\rightarrow\hat\theta$, but now we induce a toroidal current through the plasma in the reactor. This yields a poloidal magnetic field $\vec B\rightarrow\hat\phi$. Both toroidal and poloidal $\vec B$ cause field lines to form a helix, wrapped around the toroid.
+    We still have the toroidal magnetic field $\vec B\rightarrow\hat\theta$, but now we induce a toroidal current through the plasma in the reactor. This yields a poloidal magnetic field $\vec B\rightarrow\hat\phi$. Having both toroidal and poloidal $\vec B$ causes field lines to form a helix, wrapped around the toroid.
   </p>
+
+</div>
+
+<h2 style="text-align: center; margin-top: 35px; margin-bottom: 10px;">
+  How does a helical field help counteract drifts?
+</h2>
+
+<hr style="margin-top: 10px; margin-bottom: 30px; border: 0; border-top: 1px solid #ffffff;">
+
+<div style="max-width: 720px; margin: 0 auto 40px auto; text-align: center;">
+
+  <!-- Main Video / Image -->
+ <video autoplay loop muted playsinline width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <source src="{{ 'assets/videos/helical-drift-cancel.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  
+  <!-- Caption & Description -->
+  <p style="font-size: 0.95em; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
+    <b>Vertical particle drifts cancel out</b><br>
+    With a purely toroidal magnetic field, charged particles will not stay confined. Turning it into a helix moves particles throughout the toroid cross section, evening out drift over time.     
+  </p>
+
+</div>
+
+<h2 style="text-align: center; margin-top: 35px; margin-bottom: 10px;">
+  One more cause for concern
+</h2>
+
+<hr style="margin-top: 10px; margin-bottom: 30px; border: 0; border-top: 1px solid #ffffff;">
+
+<div style="display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
+
+  <!-- Left Column: Final Animation -->
+  <div style="flex: 1; min-width: 320px;">
+    <img src="{{ 'assets/images/radial-outward-drift-plasma-current.png' | relative_url }}" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="Hoop force radial outward toroid current">
+
+  <!-- Caption -->
+  <p style="font-size: 0.95em; text-align: center; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
+    <b>Toroid current causes hoop force</b><br>
+    The poloidal magnetic field caused by our plasma current influences charged particles on the opposite side of the toroid (across the donut hole), causing a hoop force. The particles on one side of the toroid experience an upward magnetic field, resulting in a radial outward force due to $\vec v\times\vec B$ (current is moving charge, so the direction can also be thought of as $\vec I\times\vec B$). 
+  </p>
+  </div>
+
+  <!-- Right Column: Wireframe Breakdown -->
+  <div style="flex: 1; min-width: 320px;">
+    <img src="{{ 'assets/images/vertical-b-cancel.png' | relative_url }}" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="Vertical B field to cancel out hoop force">
+
+  <!-- Caption -->
+  <p style="font-size: 0.95em; text-align: center; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
+    <b>Apply an opposing vertical $\vec B$</b><br>
+    If we now apply a vertical magnetic field pointing downwards, we will get a radial inward force from the same cross product $\vec v\times\vec B$.
+  </p>
+  </div>
 
 </div>

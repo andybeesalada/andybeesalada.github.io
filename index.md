@@ -350,7 +350,29 @@ Some physical realities are hard to visualize 100% true to life, so I took some 
   <!-- Caption & Description -->
   <p style="font-size: 0.95em; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
     <b>Toroid cross section, poloidal $\vec B\rightarrow \hat\phi$ overlaid</b><br>
-    Let's consider the example of a positive particle drifting upwards due to $\vec\nabla B$ drift. It will follow the field lines around the toroid, but drift upwards into the ceiling of our reactor. Let's consider adding a poloidal component to our magnetic field, such that in the cross section of the toroid, the field line is a circle. We can see that as the particle travels along this poloidal field, it spends half its time above the midpoint of this cross section, and the other half below. Effectively, the particle will spend half its time drifting away from the midpoint, and the other half drifting back towards it. The same applies for negative particles, but in the opposite direction. This will help us keep our particles confined.
+    Let's consider the example of a positive particle drifting upwards due to $\vec\nabla B$ drift. It will follow the field lines around the toroid, but drift upwards into the ceiling of our reactor. Now we will add a poloidal component to our magnetic field, such that in the cross section of the toroid, the field line is a circle. We can see that as the particle travels along this poloidal field, it spends half its time above the midpoint of this cross section, and the other half below. Effectively, the particle will spend half its time drifting away from the midpoint, and the other half drifting back towards it. The same applies for negative particles, but in the opposite direction. This will help us keep our particles confined.
+  </p>
+
+</div>
+
+<h2 style="text-align: center; margin-top: 35px; margin-bottom: 10px;">
+  How do we add a poloidal component to the magnetic field? What does the overall field look like?
+</h2>
+
+<hr style="margin-top: 10px; margin-bottom: 30px; border: 0; border-top: 1px solid #ffffff;">
+
+<div style="max-width: 720px; margin: 0 auto 40px auto; text-align: center;">
+
+  <!-- Main Video / Image -->
+ <video autoplay loop muted playsinline width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <source src="{{ 'assets/videos/helical-field-directions.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  
+  <!-- Caption & Description -->
+  <p style="font-size: 0.95em; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
+    <b>Toroidal and poloidal components together yield a helical field</b><br>
+    We still have the toroidal magnetic field $\vec B\rightarrow\hat\theta$, but now we induce a toroidal current through the plasma in the reactor. This yields a poloidal magnetic field $\vec B\rightarrow\hat\phi$. Both toroidal and poloidal $\vec B$ cause field lines to form a helix, wrapped around the toroid.
   </p>
 
 </div>

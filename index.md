@@ -159,7 +159,7 @@ Some physical realities are hard to visualize 100% true to life, so I took some 
   <!-- Caption -->
   <p style="font-size: 0.95em; text-align: center; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
     <b>Toroidal axes</b><br>
-    We'll call the orange upward arrow $\hat z$. The pink arrow facing outwards from the center is the "radial" axis, $\hat r$. Finally, the green ring around the toroid is the $\hat\theta$ axis, which we'll define to be counter-clockwise (towards the blue arrows). 
+    We'll call the orange upward arrow $\hat z$. The pink arrow facing outwards from the center is the radial axis, $\hat r$. Finally, the green ring around the toroid is the $\hat\theta$ axis, which we'll define to be counter-clockwise (towards the blue arrows). 
   </p>
   </div>
 
@@ -331,7 +331,7 @@ Some physical realities are hard to visualize 100% true to life, so I took some 
   <!-- Caption & Description -->
   <p style="font-size: 0.95em; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
     <b>Combined drifts in tokamak (ring orbit representation)</b><br>
-    The charged particles will always have their cyclotron gyration around the magnetic field lines due to the Lorentz force. However, these orbits don't cause problems like heat transfer to walls, because on average, cyclotron gyration will keep the particles in the same general area. So, it can be useful when doing calculations like these to average motion over full cyclotron gyrations. This leaves us with the more important components of motion, like $\vec\nabla B$ and $\vec E\times\vec B$ drifts. <br>That is why I made two versions of this animation, one with the particles represented as orbs/points, and another with just the orbit represented as a ring. This makes it easier to follow the motion of the guiding center, and see that the drift is vertical and radially outwards.
+    The charged particles will always have their cyclotron gyration around the magnetic field lines due to the Lorentz force. However, these orbits don't cause as much trouble, like transferring heat away. This is because on average, cyclotron gyration will keep the particles in the same general area. So, it can be useful when doing calculations like these to average motion over full cyclotron gyrations. This leaves us with the more important components of motion, like $\vec\nabla B$ and $\vec E\times\vec B$ drifts. <br>That is why I made two versions of this animation, one with the particles represented as orbs/points, and another with just the orbit represented as a ring. This makes it easier to follow the motion of the guiding center, and see that the drift is vertical and radially outwards.
   </p>
 
 </div>
@@ -414,7 +414,7 @@ Some physical realities are hard to visualize 100% true to life, so I took some 
   <!-- Caption -->
   <p style="font-size: 0.95em; text-align: center; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
     <b>Toroid current causes hoop force</b><br>
-    The poloidal magnetic field caused by our plasma current influences charged particles on the opposite side of the toroid (across the donut hole), causing a hoop force. The particles on one side of the toroid experience an upward magnetic field, resulting in a radial outward force due to $\vec v\times\vec B$ (current is moving charge, so the direction can also be thought of as $\vec I\times\vec B$). 
+    The poloidal magnetic field caused by our plasma current influences charged particles on the opposite side of the toroid (across the donut hole), causing a hoop force (orange arrow). The particles on one side of the toroid experience an upward magnetic field, resulting in a radial outward force due to $\vec v\times\vec B$ (current is moving charge, so the direction can also be thought of as $\vec I\times\vec B$). 
   </p>
   </div>
 

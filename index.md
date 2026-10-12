@@ -159,7 +159,7 @@ Some physical realities are hard to visualize 100% true to life, so I took some 
   <!-- Caption -->
   <p style="font-size: 0.95em; text-align: center; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
     <b>Toroidal axes</b><br>
-    We'll call the orange upward arrow $\hat z$. The pink arrow in-plane with the toroid that is facing outwards is the "radial" axis, $\hat r$. Finally, the green ring around the toroid is the $\hat\theta$ axis, which we'll define to be counter-clockwise (towards the blue arrows). 
+    We'll call the orange upward arrow $\hat z$. The pink arrow facing outwards from the center is the "radial" axis, $\hat r$. Finally, the green ring around the toroid is the $\hat\theta$ axis, which we'll define to be counter-clockwise (towards the blue arrows). 
   </p>
   </div>
 
@@ -170,7 +170,7 @@ Some physical realities are hard to visualize 100% true to life, so I took some 
   <!-- Caption -->
   <p style="font-size: 0.95em; text-align: center; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
     <b>Poloidal axes</b><br>
-    On this diagram, the axis of note is poloidal, the blue ring with orange arrows. We'll call this $\hat\phi$, and define to to be clockwise (towards the orange arrows). 
+    On this diagram, we have the blue ring with orange arrows. We'll call this $\hat\phi$, the poloidal axis. Let's define it to be clockwise (towards the orange arrows). 
   </p>
   </div>
 
@@ -192,8 +192,8 @@ Some physical realities are hard to visualize 100% true to life, so I took some 
   
   <!-- Caption & Description -->
   <p style="font-size: 0.95em; color: #b0b0b0; margin-top: 12px; line-height: 1.5;">
-    <b>Poloidal current loops ($\vec I$, light yellow lines) create toroidal $\vec B$</b><br> (light blue lines)
-    Imagine a solenoid, where tightly-wrapped current-carrying wire creates a straight magnetic field. Particles following these field lines will stream out of the end of the solenoid. But wrap it into a ring so the ends meet, and $\vec B$ becomes a circular path to trap particles. 
+    <b>Poloidal current loops (light yellow lines) create toroidal $\vec B$ (light blue lines)</b><br> 
+    Imagine a solenoid, where tightly-wrapped current-carrying wire creates a straight magnetic field. Particles in the solenoid will have cyclotron gyration, preventing them from flying into the walls. Though, they will stream out of the end of the solenoid since it is open. But if we wrap it into a ring so the ends meet, $\vec B$ becomes a circular path, trapping the particles in the solenoid. 
   </p>
 
 </div>
